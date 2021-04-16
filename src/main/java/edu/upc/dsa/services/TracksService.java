@@ -32,7 +32,7 @@ public class TracksService {
 
 
     }
-
+/*
     @GET
     @ApiOperation(value = "get all Track", notes = "asdasd")
     @ApiResponses(value = {
@@ -46,7 +46,6 @@ public class TracksService {
 
         GenericEntity<List<Track>> entity = new GenericEntity<List<Track>>(tracks) {};
         return Response.status(201).entity(entity).build()  ;
-
     }
 
     @GET
@@ -111,5 +110,5 @@ public class TracksService {
         this.tm.addTrack(track);
         return Response.status(201).entity(track).build();
     }
-
+*/
 }

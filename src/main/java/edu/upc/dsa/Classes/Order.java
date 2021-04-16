@@ -33,7 +33,7 @@ public class Order {
 
     @Override
     public String toString() {
-        return "Order [User=" + userName + "]";
-    }
+        return "Order [User=" + userName + "product names = "+productNames + "]";
 
+    }
 }
